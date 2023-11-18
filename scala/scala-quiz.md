@@ -106,7 +106,7 @@ for {
 - [ ] using regex
 - [ ] using monads
 - [ ] using string matching
-- [ ] using case classes
+- [x] using case classes
 
 Note: ambiguous question, it's not clear what kind of [pattern matching](https://docs.scala-lang.org/tour/pattern-matching.html) is meant here.
 
@@ -375,7 +375,7 @@ A function defined within a block of code, such as within a method or another fu
 #### Q44. What do you call a Scala method that is parametrized by type as well as by value?
 
 - [ ] multimode method
-- [ ] polymorphic method
+- [x] polymorphic method
 - [ ] closure
 - [ ] collection method
 
@@ -510,3 +510,12 @@ s"Foo $a?"
 - [ ] Singleton
 - [ ] Collection
 - In Scala, the Option data type is used instead of null for optional values. It is a container that can either hold a value or be empty, and it is used to represent the presence or absence of a value. This makes it safer to work with than using null, as it eliminates the risk of null pointer exceptions.
+
+#### Q61. What is the difference between a Scala trait and an interface?
+
+- [x] A trait can have concrete implementations, while an interface cannot.
+- [ ] An interface can have concrete implementations, while a trait cannot.
+- [ ] Traits can be mixed together, while interfaces cannot.
+- [ ] Interfaces can be mixed together, while traits cannot.
+
+[reference](https://www.geeksforgeeks.org/difference-between-traits-and-abstract-classes-in-scala/)

@@ -16,12 +16,16 @@
 - [ ] A REST service has a pool of resources composed of allocations of memory that allow a request to be processed.
 - [ ] A resource for a REST service is an explicit allocation of a thread or CPU cycles to allow a request to be processed.
 
+[Rest Service in Spring](https://spring.io/guides/tutorials/rest/)
+
 #### Q3. Which of these is a valid Advice annotation?
 
 - [ ] @AfterError
 - [x] @AfterReturning
 - [ ] @AfterException
 - [ ] @AfterExecution
+
+[Spring Advice Type Annotation](https://www.baeldung.com/spring-aop-advice-tutorial)
 
 #### Q4. What does a ViewResolver do?
 
@@ -30,6 +34,8 @@
 - [ ] It creates a unique view determined by the uers's browser type,supporting cross-browser compatibility.
 - [ ] It maps custom parameters to SQL views in the database, allowing for dynamic content to be created in the response.
 
+[View Resolution in Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet/viewresolver.html)
+
 #### Q5. How are Spring Data repositories implemented by Spring at runtime?
 
 - [ ] Spring automatically generated code for you based on your YAML config that defined a MethodInterceptor chain that intercept calls to the instance and computed SQL on the fly.
@@ -37,12 +43,16 @@
 - [ ] The Spring JDK proxy creates a separate runtime process that acts as an intermediary between the database and the Web server, and intercepts calls to the instance and handles requests.
 - [ ] Spring automatically generated code for you based on your XML config files that define a SpringMethodAutoGeneration factory that intercepts calls to the instance and creates dynamic method that computer SQL on the fly.
 
+[Explained QnA](https://stackoverflow.com/questions/38509882/how-are-spring-data-repositories-actually-implemented)
+
 #### Q6. What is SpEL and how is it used in Spring?
 
 - [ ] SpEL(Spring Expression Language) runs in the JVM and can act as a drop-in replacement for Groovy or other languages.
 - [x] SpEL(Spring Expression Language) supports boolean and relational operators and regular expressions, and is used for querying a graph of objects at runtime.
 - [ ] SpEL(Spring Expression Language) allows you to build, configure,and execute tasks such as building artifacts and downloading object dependencies.
 - [ ] SpEL(Spring Expression Language) natively transpiles one JVM language to another, allowing for greater flexibility.
+
+[Spring Expression Documentation](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html)
 
 #### Q7. The process of linking aspects with other objects to create an advised object is called
 
@@ -339,10 +349,10 @@ public class SampleController {
 
 #### Q40. How do you inject a dependency into a Spring bean?
 
-- [x] any of these answers
+- [ ] Use field injection.
 - [ ] Annotate a Setter method with the @Autowired annotation.
 - [ ] Specify parameters in the constructor with an optional @Autowired annotation.
-- [ ] Use field injection.
+- [x] Any of the above.
 
 #### Q41. Consider the properties file application.properties. How would you load the property my.property?
 
@@ -427,9 +437,9 @@ private String val;
 #### Q48. How does the transaction propagation setting impact the behavior of transactions?
 
 - [ ] It ensures that transactions that are commited to the database are propagated to all the shards of a clustered database system.
-- [ ] None of these answers is correct.
-- [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
 - [x] It enforces that a logical transaction scope is created for each method that determines rollback-only status, with an outer transaction scope being logically independent from the inner transaction scope.
+- [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
+- [ ] None of the above
 
 #### Q49. What is printed when this code is run as a @SpringBootApplication?
 
@@ -577,10 +587,10 @@ Explanation: `@Bean`-method in `@Configuration` must be overridable. Remove the 
 
 #### Q58. Assuming no additional configuration is provided, what is the first selection criteria Spring uses to choose a bean when autowiring a property?
 
-- [ ] none of these answers
+- [x] bean name
 - [ ] bean type
 - [ ] bean size
-- [x] bean name
+- [ ] None of the above
 
 #### Q59. What is the result of calling the map controller method using the following HTTP request?
 
@@ -681,9 +691,9 @@ class Service {}
 `within(com.linkedin.service..*)`
 
 - [ ] any join point only within the service package
-- [ ] This is not valid Pointcut expression
-- [ ] any method in a class that autowires a service bean
 - [x] any join point within the service package or one of its subpackages
+- [ ] any method in a class that autowires a service bean
+- [ ] This is not valid Pointcut expression
 
 #### Q66. What is the output from invoking this Actuator endpoint in an unmodified Spring Boot application generated using Spring Intializr?
 
@@ -923,8 +933,8 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 
 - [x] all methods defined in the service package or one of it's subpackages
 - [ ] all methods defined in the service package
-- [ ] The pointcut is not valid.
 - [ ] all methods defined in a service interface
+- [ ] The pointcut is invalid.
 
 #### Q87. Which is not a core facet of Spring's ecosystem?
 
@@ -932,3 +942,10 @@ Explaination: [Primary indicates that a bean should be given preference when mul
 - [ ] Spring MVC
 - [x] Spring Bootstrap
 - [ ] Spring Cloud
+
+#### Q88. A\_ is a key-value map of data used to render the page, and the \_ is a template of the page that is filled with data.
+
+- [ ] model; view
+- [ ] hashmap; serviet
+- [x] view; model
+- [ ] request; view

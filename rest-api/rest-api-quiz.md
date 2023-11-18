@@ -540,3 +540,26 @@
 - [ ] 404 Not Found
 
 [Response Status Codes](https://www.rfc-editor.org/rfc/rfc7231#section-6)
+
+#### Q70. Which HTTP verb is normally used to retrieve or create a resource in an API?
+
+- [ ] `RETRIEVE`
+- [ ] `FORM`
+- [x] `GET`
+- [ ] `READ`
+
+#### Q71. To create a new resource, what HTTP response code should you receive?
+
+- [ ] `200`
+- [ ] `405`
+- [x] `201`
+- [ ] `204`
+
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+#### Q72. You are developing a RESTful API for a new project on GitHub. Security is a top priority, and you want to ensure that only authorized users can access specific endpoints. Which of the following mechanisms should you use to achieve this goal?
+
+- [ ] API rate limiting
+- [x] OAuth 2.0
+- [ ] Basic Authentication
+- [ ] HTTP Basic Auth

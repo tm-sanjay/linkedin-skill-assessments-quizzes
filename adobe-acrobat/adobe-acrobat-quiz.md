@@ -126,7 +126,7 @@
 - [ ] Tools > Edit PDF
 - [ ] Tools > Action Wizard
 
-#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is diaplyed by default in the drop-down field?
+#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is displayed by default in the drop-down field?
 
 - [x] Select the instructional text entry in the Dropdown Properties dialog box.
 - [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
@@ -161,9 +161,11 @@
 #### Q23. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
 
 - [ ] a list box field
-- [ ] a multi-line text field
+- [x] a multi-line text field
 - [ ] a drop-down field
 - [ ] a text field with rich text formatting
+
+[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)
 
 #### Q24. A client sent a PDF to be included as a page in a book you are designing. The client misspelled several words in the PDF. The PDF is a scan of text. What can you do to fix the misspelled words?
 
@@ -177,18 +179,20 @@
 - [ ] Click **Create Layer Set**.
 - [ ] Click **Add Layers**.
 - [ ] Deselect the **Convert All Pages in Drawing** option.
-- [ ] Select **Retain Some Layers in the Selected Page**.
+- [x] Select **Retain Some Layers in the Selected Page**.
+
+[Reference](https://www.adobe.com/acrobat/hub/how-to-convert-visio-to-pdf.html)
 
 #### Q26. A small section of a 28-page PDF has been updated with new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?
 
 - [ ] From the 28-page PDF, extract and save the three pages as a new PDF. For each of the two three-page PDFs, choose **File > Export to > Text (Plain).**
 - [ ] Arrange the two PDFs in side-by-side windows in Acrobat. Scroll to the first page of the section in the larger PDF, and compare the visually, line by line.
-- [ ] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
+- [x] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
 - [ ] Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of it text.
 
 #### Q27. You need to send multiple documents to a potential client, and you would like to add security to all of the documents at once. What is the easiest method?
 
-- [ ] Portfolio
+- [x] Portfolio
 - [ ] LiveCycle Rights Management
 - [ ] Security Envelope
 - [ ] Email Review
@@ -196,7 +200,7 @@
 #### Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?
 
 - [ ] Press-ready PDF
-- [ ] Optimized PDF
+- [x] Optimized PDF
 - [ ] Certified PDF
 - [ ] Reader Extended PDF
 
@@ -217,7 +221,7 @@
 #### Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?
 
 - [ ] A
-- [ ] B
+- [x] B
 - [ ] C
 - [ ] D
 
@@ -244,24 +248,17 @@
 
 #### Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?
 
-- [ ]Preferences > Signatures > Identities & Trusted Certificates
+- [ ] Preferences > Signatures > Identities & Trusted Certificates
 - [ ] Preferences > Signatures > Document Timestamping
 - [ ] Preferences > Signatures > Verification
 - [x] Preferences > Signatures > Creation and Appearance
 
-#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+#### Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of individual JPEGs instead?
 
 - [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
 - [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
 - [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
 - [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
-
-#### Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
-
-- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
-- [ ] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
-- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
-- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
 
 #### Q37. You are trying to find all instances of "medicine" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?
 
@@ -284,6 +281,15 @@
 - [x] Re-order the bookmarks in the Bookmarks pane by dragging.
 - [ ] Nothing, The bookmarks will still be correct.
 
+#### Q40. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?
+
+- [ ] Edit the conversion settings in **File > Export > Image > JPEG**.
+- [x] Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.
+- [ ] Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.
+- [ ] Edit the image settings in **File > Save As Other > Optimized PDF**.
+
+[Reference](<[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)>)
+
 #### Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?
 
 - [x] The field name is incorrect.
@@ -295,19 +301,23 @@
 
 - [ ] **Comment panel menu**
 - [ ] **Properties Toolbar**
-- [ ] **Preferences > Commenting**
+- [x] **Preferences > Commenting**
 - [ ] **Preferences > Reviewing**
+
+[Reference](https://helpx.adobe.com/in/acrobat/using/commenting-pdfs.html)
 
 #### Q43. In a complex forms document, one field is currently a drop-down list field. However, the client specifies that it should instead be a multi-line text field. How can you do what the client requests?
 
 - [ ] Select the drop-down field and then click the **Dropdown** icon in the secondary toolbar.
-- [ ] Right-click the drop-down field and select **Properties** from the context menu.
+- [x] Right-click the drop-down field and select **Properties** from the context menu.
 - [ ] Delete the drop-down field and create a text field in its place.
 - [ ] Select the drop-down field and then click **Prepare Form** in the right pane.
 
+[Reference](https://helpx.adobe.com/acrobat/using/manage-form-field-properties.html)
+
 #### Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?
 
-- [ ] Permissions
+- [x] Permissions
 - [ ] Certificates
 - [ ] Document Open
 - [ ] Compatibility
@@ -316,12 +326,28 @@
 
 - [ ] **Accessibility > Set Alternate Text**
 - [ ] **Tools > Action Wizard**
-- [ ] **Accessibility > Reading Options**
+- [x] **Accessibility > Reading Options**
 - [ ] **Document Properties > Password > Security > Settings**
 
 #### Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?
 
-- [ ] ![image](images/001.jpg?raw=jpg)
+- [x] ![image](images/001.jpg?raw=jpg)
 - [ ] ![image](images/002.jpg?raw=jpg)
 - [ ] ![image](images/003.jpg?raw=jpg)
 - [ ] ![image](images/004.jpg?raw=jpg)
+
+[Reference](https://uhlcithelp.zendesk.com/hc/en-us/articles/360051734294-Adobe-Acrobat-Workspace-Basics)
+
+#### Q47. You need to submit a PDF to a commercial printing company. They specify that the PDF shall only contain CMYK image content, with no RB images, no layers, and no live transparency. Which preset will meet these specifications?
+
+- [ ] PDF/X-3
+- [ ] PDF/X-4
+- [x] PDF/X-1a
+- [ ] PDF/X-1b
+
+#### Q48. A historical society asks you to design a book that will honor the society's founders. They want a PDF version of the book that ensures that the file will be readable in the distant future. What PDF format is designed for future readability?
+
+- [ ] PDF/X-1a
+- [ ] PDF/X-3
+- [ ] PDF/X-4
+- [x] PDF/A-1a

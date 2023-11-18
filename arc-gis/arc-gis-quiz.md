@@ -99,7 +99,7 @@
 ![What geoprocessing tool, when applied to the Point Data Layer, is most likely responsible for the data shown in the Result Layer?](images/Q13.png)
 
 - [ ] Dissolve
-- [ ] Buffer
+- [x] Buffer
 - [ ] Merge
 - [ ] Intersect
 
@@ -194,3 +194,46 @@
 - [x] short integer
 - [ ] float
 - [ ] long integer
+
+#### Q26. If you are looking for all features containing a specific company name in the attribute table, but don't know the name of the column containing the company name, or even which layers it is in, which tool should you use to search all of the attributes in all of the layers at once?
+
+- [x] Find
+- [ ] Select by Attribute
+- [ ] Select by Location
+- [ ] Definition Query
+
+#### Q27. You need to prepare an ArcGIS Online hosted feature layer that will be used to collect fire hydrant maintenance data using the Collector for ArcGIS mobile app. You would like Collector to display a drop-down menu of valid choices for the hydrant manufacturer attribute so that data can be entered with just a couple of taps, as pictured. How would you do this?
+
+- [ ] Attach the list of values as a subtype of the Hydrant feature layer.
+- [ ] For the Manufacturer field, create the list of values as a range domain.
+- [ ] Create the list of values as default values for the feature layer.
+- [x] For the Manufacturer field, create the list of values as a coded-value domain.
+
+[Reference](https://doc.arcgis.com/en/arcgis-online/manage-data/hosted-web-layers.htm)
+
+#### Q28. You add a north arrow to a layout in ArcGIS Pro. Which direction does it point by default?
+
+- [x] Map North
+- [ ] Magnetic North
+- [ ] True North
+- [ ] Grid North
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/layouts/north-arrows.htm)
+
+#### Q29. Which classification method places approximately the same number of values in each class?
+
+- [ ] Defined Interval
+- [ ] Equal Interval
+- [x] Quantile
+- [ ] Standard Deviation
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm)
+
+#### Q29. You want to add a time and date to your map layout that will update when the map is printed. What element should you add to do this?
+
+- [ ] Variable data
+- [x] Dynamic text
+- [ ] Datestamp
+- [ ] System information
+
+[Reference](https://desktop.arcgis.com/en/arcmap/latest/map/page-layouts/working-with-dynamic-text.htm)

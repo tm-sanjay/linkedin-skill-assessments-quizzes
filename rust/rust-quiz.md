@@ -605,3 +605,179 @@ let pt = Point2D(-1.0, 2.0)
 - [ ] assert!()
 
 [Reference](https://doc.rust-lang.org/std/macro.assert_eq.html)
+
+#### Q53. Which code statement in Rust is used to define a BTreeMap object?
+
+- [ ] let btm=BTreeMap::new()
+- [x] let mut btm=BTreeMap::new()
+- [ ] BTreeMap btm = BTreeMap.new()
+- [ ] BTreeMap btm = std::collections::BTreeMap::new()
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q54 .Rust is known to be memory safe. Which feature is the main reason for the memory safety of Rust?
+
+- [x] ownership
+- [ ] borrowing
+- [ ] lifetimes
+- [ ] reference
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q55 . To support Dynamic Sized variables, what should we use in place of "f32"?
+
+- [ ] Not supportedin Rust
+- [ ] use array
+- [x] ?sized
+- [ ] list all data-types
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q56 . What is "Drop" in Rust used for?
+
+- [ ] run code as multi-threaded
+- [x] run code when variable is out of scope
+- [ ] run code and drop it if error comes
+- [ ] option 4
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q57 . In Rust, how is a macro from the above Rust code snippet used?
+
+- [ ] foo(x)
+- [ ] #foo
+- [x] foo!()
+- [ ] foo
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q58 . Which library does Rust use for memory allocation?
+
+- [ ] tcmalloc
+- [ ] mimalloc
+- [ ] ptmalloc
+- [x] jemalloc
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q59 . Who designed Rust from scratch in 2006?
+
+- [x] Graydon Hoare
+- [ ] Yukihiro Matsumoto
+- [ ] Guido Van Rossum
+- [ ] David flanagan
+
+[Reference](https://iq.opengenus.org/questions-on-rust/)
+
+#### Q60. Which types are _not_ allowed within an enum variant's body?
+
+- [ ] zero-sized types
+- [ ] structs
+- [x] trait objects
+- [ ] floating-point numbers
+
+#### Q61. Which example correctly uses std::collections::HashMap's Entry API to populate counts?
+
+```rust
+use std::collections::HashMap;
+fn main() {
+    let mut counts = HashMap::new();
+    let text = "LinkedIn Learning";
+    for c in text.chars() {
+        // Complete this block
+    }
+    println!("{:?}", counts);
+}
+```
+
+- [ ] &shy;
+
+```rust
+for c in text.chars() {
+    if let Some(count) = &mut counts.get(&c) {
+        counts.insert(c, *count + 1);
+    } else {
+        counts.insert(c, 1);
+    };
+}
+```
+
+- [x] &shy;
+
+```rust
+for c in text.chars() {
+    let count = counts.entry(c).or_insert(0);
+    *count += 1;
+}
+```
+
+- [ ] &shy;
+
+```rust
+for c in text.chars() {
+    let count = counts.entry(c);
+    *count += 1;
+}
+```
+
+- [ ] &shy;
+
+```rust
+for c in text.chars() {
+    counts.entry(c).or_insert(0).map(|x| x + 1);
+}
+```
+
+#### Q62. To convert a `Result` to an `Option`, which method should you use?
+
+- [ ] `.as_option()`
+- [x] `.ok()`
+- [ ] `.to_option()`
+- [ ] `.into()`
+
+#### Q63. Which statement about this code is true?
+
+```rust
+fn main() {
+    let c = 'z';
+    let heart_eyed_cat = '😻';
+}
+```
+
+- [x] Both are character literals.
+- [ ] `heart_eyed_cat` is an invalid expression.
+- [ ] `c` is a string literal and `heart_eyed_cat` is a character literal.
+- [ ] Both are string literals.
+
+#### Q64. What is an alternative way of writing `slice` that produces the same result?
+
+```rust
+...
+let s = String::form("hello");
+let slice = &s[0..2];
+```
+
+- [ ] let slice = &s[len + 2];
+- [ ] let slice = &s[len - 2];
+- [ ] let slice = &s.copy(0..2);
+- [x] let slice = &s[..2];
+
+#### Q65. How would you select the value 2.0 from this tuple?
+
+```rust
+let pt = Point2D(-1.0, 2.0)
+```
+
+- [ ] pt[1]
+- [ ] pt(1)
+- [ ] pt.iter().nth(1)
+- [x] pt.1
+
+#### Q66. What is the purpose of the move keyword in Rust?
+
+- [x] To indicate that a value should be moved instead of copied.
+- [ ] To indicate that a value should be copied instead of moved.
+- [ ] To indicate that a value should be borrowed instead of owned.
+- [ ] To indicate that a value should be owned instead of borrowed.
+
+[reference](https://doc.rust-lang.org/std/keyword.move.html#:~:text=Keyword%20move&text=move%20converts%20any%20variables%20captured,to%20variables%20captured%20by%20value.&text=move%20is%20often%20used%20when%20threads%20are%20involved.&text=move%20is%20also%20valid%20before%20an%20async%20block.)

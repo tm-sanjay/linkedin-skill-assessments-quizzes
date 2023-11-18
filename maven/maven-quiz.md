@@ -52,16 +52,9 @@
 #### Q8. Which command is used to run the clean lifecycle followed by verify, install, and package with Maven?
 
 - [ ] `mvn clean install package`
-- [x] `mvn package`
-- [ ] `mvn clean install`
-- [ ] Option 4
-
-```shell script
-mvn clean
-mvn package
-mvn verify
-mvn install
-```
+- [ ] `mvn package`
+- [x] `mvn clean verify install package`
+- [ ] `mvn install package`
 
 #### Q9. Which goal would you use with the Dependency plugin to determine which included dependencies are not used, as well as those you are using that you have not defined?
 
@@ -319,7 +312,7 @@ mvn install
 
 - [ ] The Checkstyle Plugin does not work on child modules.
 - [ ] Each Checkstyle report is in the target/site folder of the respective module.
-- [ ] All links in Checkstyle reports must be specified in the plugin definition.
+- [x] All links in Checkstyle reports must be specified in the plugin definition.
 - [ ] Checkstyle reports for child modules have to be behind a firewall.
 
 #### Q43. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
@@ -339,7 +332,7 @@ mvn install
 #### Q45. How many times is compiler:compile called when executing mvn clean compile test package?
 
 - [ ] one
-- [ ] two
+- [x] two
 - [ ] none
 - [ ] three
 
@@ -359,7 +352,7 @@ mvn install
 
 #### Q48. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
 
-- [ ] Transitive
+- [x] Transitive
 - [ ] runtime
 - [ ] provided
 - [ ] test
@@ -575,7 +568,7 @@ mvn install
 - [ ] It disables put requests to headers.
 - [ ] It sets the headers for all GET requests.
 - [ ] all of these answers
-- [ ] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
+- [x] It turns off the default behavior for headers and respecifies the Accept-Encoding header for the server with ID openssl.
 
 #### Q72. Below is the build element of a parent POM file. Why might the resources not get copied when executing the plugin on a child project?
 
@@ -584,6 +577,32 @@ mvn install
 - [ ] Plugins defined in the pluginManagement element can never be executed.
 - [ ] Plugins defined in the parent POM are not available in the child POM.
 - [ ] The Build Helper Maven Plugin works only on parent projects.
-- [ ] The plugin may not have been defined in the child POM.
+- [x] The plugin may not have been defined in the child POM.
 
 [maven docs](https://maven.apache.org/guides/mini/guide-http-settings.html#taking-control-of-your-http-headers)
+
+#### Q73. This image shows a POM file with a profile. When will this profile be activated?
+
+![img](q73.png)
+
+- [ ] always
+- [x] when the system property debug is not set to true, or is not defined
+- [ ] when the system property debug is set to !true
+- [ ] never
+
+#### Q74. What command can you use to run the goal of the compiler plugin?
+
+- [x] mvn compiler:compile
+- [ ] mvn compiler
+- [x] mvn test-compile
+- [ ] mvn compiler:test
+      [!reference](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
+
+#### Q75. In order to leverage a single execution of an Apache Maven goal on a multimodule project, from which directory should you execute the goal?
+
+- [x] the directory with the parent POM
+- [ ] the workspace directory
+- [ ] the development directory
+- [ ] the module directory
+
+[!reference](https://maven.apache.org/guides/mini/guide-multiple-modules.html)

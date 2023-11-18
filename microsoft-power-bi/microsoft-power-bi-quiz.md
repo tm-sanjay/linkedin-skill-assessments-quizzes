@@ -95,7 +95,7 @@ NOTE: DAX does not have IFX or IFS functions. The correct answer is B.
 - [x] A, B, C
 - [ ] A, B, C, D
 
-NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C 
+NOTE: Documentation talks about blog posts, websites, emails or social media, but never mentions text messages. Correct answer is C
 
 #### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
@@ -118,7 +118,7 @@ NOTE: Documentation talks about blog posts, websites, emails or social media, bu
 - [ ] sort, filter, and group
 - [ ] sort and group
 
-NOTE: Power BI won't group your text, but it does filter and sort it. 
+NOTE: Power BI won't group your text, but it does filter and sort it.
 
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
@@ -564,7 +564,7 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 #### Q69. What are the first steps you take to connect to an Access database data source in Power BI?
 
 - [ ] You cannot to an Access database from Power BI.
-- [ ] Click **Reports > Database > Connect** in Power BI Desktop
+- [x] Click **Reports > Database > Connect** in Power BI Desktop
 - [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Service
 - [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Desktop
 
@@ -792,6 +792,44 @@ NOTE: Data gets processed and reduced in the Power query editor. Corect answer i
 - [ ] a dashboard
 - [x] all of these answers
 
+#### Q99. What is true about paginated reports? (Select all that apply)
+
+    A. They are formatted to fit well on a page.
+    B. They shrink the report data to fit on a page.
+    C. They truncate the report data to fit on a single page.
+    D. They are both printable and shareable.
+
+- [x] A, D
+- [ ] B or C, both on user choice
+- [ ] A. B, D
+- [ ] A, C, D
+
 [reference](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards)
 
+#### Q100. What is the primary function of the Power Query Editor in Power BI?
 
+- [ ] Data modeling
+- [x] Data transformation and preparation
+- [ ] Data visualization
+- [ ] Data sharing and collaboration
+
+#### Q101. What is the purpose of DAX (Data Analysis Expressions) in Power BI?
+
+- [ ] To create visualizations
+- [ ] To design data models
+- [x] To perform advanced data calculations and aggregations
+- [ ] To connect to external data sources
+
+#### Q102. In Power BI, what is a "calculated column" used for?
+
+- [ ] It's a calculated measure used in visuals.
+- [ ] It's a calculated field that aggregates data.
+- [x] It's a column that you add to a table with a formula.
+- [ ] It's a column that displays hierarchical data.
+
+#### Q103. Which type of Power BI visual is most suitable for comparing values across categories using bars of varying lengths?
+
+- [ ] Line chart
+- [ ] Scatter plot
+- [ ] Pie chart
+- [x] Bar chart

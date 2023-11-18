@@ -241,7 +241,7 @@ vbound<-cbind(v1,v2)
 ```
 
 - [ ] &shy;
-  none
+      none
 
 #### Q26. ournames is a character vector. What values does the statement below return to Cpeople?
 
@@ -679,9 +679,12 @@ mtrx[, -1]
 
 ![image](https://drive.google.com/uc?export=view&id=1ntrHVnNfCRvXfKjbpavh7CiIsv7izsJr)
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] &shy;
+
+- [ ] &shy;
+
+- [ ] &shy;
+
 - [x] [1] 4 5 6
 
 #### Q63. Why does sum(!is.na(pizza$week)) return the number of rows with valid, non-NA values in the column named week?
@@ -697,3 +700,30 @@ mtrx[, -1]
 - [ ] ? dplyr
 - [x] ?? dplyr
 - [ ] Press the F1 key.
+
+#### Q65. In the image below, the data frame named iris includes a numeric vector named Petal.Length. Do the functions labeled Pair 1 and Pair 2 return the same information?
+
+![image](https://github.com/ManchurianMan/images/blob/main/petals.png?raw=true)
+
+- [x] No, both the length and the class of the returned structures are different.
+- [ ] Yes, both pairs of statements return an object with the same length and class.
+- [ ] No, the length is the same but the class is different.
+- [ ] No, the class is the same but the length is different.
+
+#### Q66. The **\_** for R are the main feature that make it different from the original S language.
+
+- [ ] closure rules
+- [x] scoping rules
+- [ ] environment rules
+- [ ] None of the above
+
+[reference](https://bookdown.org/rdpeng/rprogdatascience/scoping-rules-of-r.html)
+
+#### Q67. Which of the following is a base package for R programming ?
+
+- [x] tools
+- [ ] util
+- [ ] lang
+- [ ] All of the above
+
+[reference](https://www.geeksforgeeks.org/packages-in-r-programming/)

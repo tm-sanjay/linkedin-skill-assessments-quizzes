@@ -492,7 +492,7 @@ end
 
 #### Q41. Which statement about ActiveRecord models is true?
 
-- [ ] Each database column requres adding a matching attr_accessor declaration in the ActiveRecord model.
+- [ ] Each database column requires adding a matching attr_accessor declaration in the ActiveRecord model.
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
 - [x] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
 - [ ] ActiveRecord models can have only attributes that have a matching database column
@@ -1011,7 +1011,7 @@ end
 `<%= render partial: 'user_info', object: { name: 'user' } %>`
 
 - [ ] `<%= locals.user_info.name %>`
-- [ ] `<%= object.name %>`
+- [x] `<%= object.name %>`
 - [ ] `<%= @user.name %>`
 - [ ] `<%= @user_info.name %>`
 
@@ -1051,3 +1051,12 @@ end
 - [x] `params.require(:project).permit(:name, :visible, :description)`
 
 [Strong Params](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
+#### Q78. What is the purpose of the rake db:migrate command?
+
+- [ ] `To create a new database for the Rails application.`
+- [x] `To migrate the database schema to the latest version.`
+- [ ] `To seed the database with initial data.`
+- [ ] `To test the database connection.`
+
+[reference](https://guides.rubyonrails.org/v3.2/migrations.html#:~:text=Active%20Record%20tracks%20which%20migrations,the%20structure%20of%20your%20database.)

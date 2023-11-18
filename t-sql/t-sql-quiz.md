@@ -284,19 +284,19 @@ select * from students;
 ```
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 1001 mark twain
+      studentid firstname lastname
+      1 1001 mark twain
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 1 mark twain
+      studentid firstname lastname
+      1 1 mark twain
 
 - [x] studentid firstname lastname
       1 1000 mark twain
 
 - [ ] &shy;
-  studentid firstname lastname
-  1 null mark twain
+      studentid firstname lastname
+      1 null mark twain
 
 #### Q27. Given a table with the following structure, which query returns all student names with the highest grade?
 
@@ -478,7 +478,7 @@ END;
 SELECT MyValue AS Result FROM MyTable;
 ```
 
-- [ ] 5
+- [x] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
@@ -567,8 +567,8 @@ _______
 
 - [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
-- [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
-- [x] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+- [x] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
+- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
 
@@ -737,3 +737,32 @@ SELECT * FROM MyNumbers;
 - [x] drop
 - [ ] delete
 - [ ] truncate table
+
+#### Q59. Which statement deletes a table named Inventory from the Products database?
+
+- [ ] :
+
+```tsql
+  DROP TABLE Products.Inventory;
+```
+
+- [x] :
+
+```tsql
+  USE Products;
+  DROP TABLE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products;
+  DELETE Inventory;
+```
+
+- [ ] :
+
+```tsql
+  USE Products.Inventory;
+  DROP TABLE Inventory;
+```

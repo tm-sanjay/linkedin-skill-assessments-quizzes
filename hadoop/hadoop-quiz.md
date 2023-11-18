@@ -84,7 +84,7 @@
 - [ ] Zookeeper; commercial software
 - [x] Zookeeper; open source
 
-#### Q13. For high availability, use multiple nodes of which type?
+#### Q13. For high availability, which type of multiple nodes should you use?
 
 - [ ] data
 - [x] name
@@ -182,7 +182,7 @@
 - [ ] external schema
 - [x] schema on read
 
-#### Q27. HDFS file are of what type?
+#### Q27. HDFS files are of what type?
 
 - [ ] read-write
 - [ ] read-only
@@ -282,7 +282,7 @@
 - [ ] operating system
 - [ ] productivity tool
 
-#### Q41. If no reduction is desired, you should set the numbers of \_ tasks to zero
+#### Q41. If no reduction is desired, you should set the numbers of \_ tasks to zero.
 
 - [ ] combiner
 - [x] reduce
@@ -296,14 +296,14 @@
 - [ ] combiner
 - [x] counter
 
-#### Q43. \_ is the query language, and \_ is storage for NoSQL on Hadoop
+#### Q43. \_ is the query language, and \_ is storage for NoSQL on Hadoop.
 
 - [ ] HDFS; HQL
 - [x] HQL; HBase
 - [ ] HDFS; SQL
 - [ ] SQL; HBase
 
-#### Q44. MapReduce 1.0 \_ YARN
+#### Q44. MapReduce 1.0 \_ YARN.
 
 - [x] does not include
 - [ ] is the same thing as
@@ -514,17 +514,18 @@ FROM customers c;
 
 #### Q72. In Hadoop MapReduce job code, what must be static?
 
- - [ ] configuration
- - [x] Mapper and Reducer
- - [ ] Mapper
- - [ ] Reducer
+- [ ] configuration
+- [x] Mapper and Reducer
+- [ ] Mapper
+- [ ] Reducer
 
 [Reference](https://stackoverflow.com/questions/14828131/do-mappers-and-reducers-in-hadoop-have-to-be-static-classes)
 
 #### Q73. In Hadoop simple mode, which object determines the identity of a client process?
- - [ ] Kerberos ticket
- - [ ] kubernetes token
- - [ ] guest operating system
- - [x] host operating system
+
+- [ ] Kerberos ticket
+- [ ] kubernetes token
+- [ ] guest operating system
+- [x] host operating system
 
 [Reference](http://doc.isilon.com/ECS/3.2/DataAccessGuide/vipr_c_hdfs_security_model.html)
